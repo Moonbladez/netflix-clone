@@ -1,0 +1,25 @@
+.planScreen {
+  .planDetails {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    opacity: 0.8;
+
+    &:hover {
+      opacity: 1;
+    }
+
+    .planSubscribeButton {
+      padding: 10px 20px;
+      color: white;
+      background-color: #e50914;
+      font-weight: 600;
+      position: relative;
+
+      &:disabled {
+        background-color: lightgray;
+        color: black;
+      }
+    }
+  }
+}
